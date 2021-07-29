@@ -1,0 +1,26 @@
+<!--
+    <div class="content">
+    <h2>Body mass index calculator</h2>
+    <label>Enter your Weight:</label>
+    <input [(ngModel)]="bmi.weight" placeholder="Weight"><br>
+    <p>Your Weight is {{bmi.weight}}</p>
+
+    <label>Enter your Height:</label>
+    <input [(ngModel)]="bmi.height" placeholder="height"><br>
+    <p>Your Height is {{bmi.height}}</p>
+
+    <h3>Your Body Mass Index is: {{ (bmi.weight) / ((bmi.height / 100) * (bmi.height / 100)) }}</h3>
+    <br>
+</div>
+-->
+
+<div class="content">
+    <h2>Body Mass Index Calculator</h2>
+    <input [(ngModel)]="weight" placeholder="Weight"><br><br>
+
+    <input [(ngModel)]="height" placeholder="height"><br><br>
+    <button (click)="calc()">Caculate</button>
+
+    <h3>Your Body Mass Index is: {{bodymass}}</h3>
+   
+</div>

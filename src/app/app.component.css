@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+.content {
+    width: 50%;
+    height: 300px;
+    float: center;
+    margin: auto;
+}
+
+.content h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: Black;
+}
+
+.content input{
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px
+}
+
+.content button{
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px
+}
+
+.content h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: grey;
+}
